@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background-color: #ffe800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+header .logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Main */
+main {
+  padding: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.producto {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+}
+
+.producto p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+/* Parte central encabezado */
+.formulario {
+  display: flex;
+  align-items: center;
+  background-color: #ffeb00;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-right: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.menu i {
+  font-size: 38px;
+  margin-right: 8px;
+}
+
+.search-box {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  font-weight: bold;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.location i {
+  margin-right: 5px;
+}
+
+.location span {
+  max-width: 160px;
+}
+
+input {
+  font-weight: bold;
+}
+
+.iconos {
+  padding-top: 15px;
+}
+
+.card {
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
